@@ -6,17 +6,33 @@
 
 // export default Home;
 import Navbar from "../components/Navbar";
+import Sidebar from "../components/Sidebar";
+import RightPanel from "../components/RightPanel";
 
 function Home() {
   return (
     <>
       <Navbar />
 
-      <h1>Welcome to 2gether</h1>
+      <div className="layout">
 
-      <p>
-        Find teammates, join projects and build together.
-      </p>
+        <Sidebar />
+
+        <main>
+          <h1>Welcome to 2gether</h1>
+
+          <div className="post">
+            Looking....
+          </div>
+
+          <div className="post">
+            Building project
+          </div>
+        </main>
+
+        <RightPanel />
+
+      </div>
     </>
   );
 }
