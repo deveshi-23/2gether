@@ -18,16 +18,16 @@ function Home() {
 
         <Sidebar />
 
-        <main>
-          <h1>Welcome to 2gether</h1>
+        {/* <main>
+          <h1>Welcome to 2gether</h1> */}
 
           <div className="post">
             Looking....
           </div>
 
-          <div className="post">
+          {/* <div className="post">
             Building project
-          </div>
+          </div> */}
         </main>
 
         <RightPanel />
