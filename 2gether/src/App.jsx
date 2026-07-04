@@ -6,6 +6,7 @@ import Signup from "./pages/Signup";
 import Profile from "./pages/Profile";
 import Discover from "./pages/Discover";
 import CreateTeam from "./pages/CreateTeam";
+import "./App.css";
 
 function App() {
   return (
