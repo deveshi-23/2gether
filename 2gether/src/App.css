@@ -11,3 +11,15 @@
   border-radius:10px;
   margin-bottom:15px;
 }
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+}
+.nav_links button{
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}

@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 
+
 function Navbar() {
   return (
     <nav>
@@ -8,7 +9,7 @@ function Navbar() {
         placeholder="Search people, skills, teams..."
       />
 
-      <div>
+      <div className="nav_links">
         <Link to="/">Home</Link>
 
         <Link to="/discover">Explore</Link>
