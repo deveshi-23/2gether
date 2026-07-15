@@ -8,6 +8,7 @@
 import Navbar from "../components/Navbar";
 import Sidebar from "../components/Sidebar";
 import RightPanel from "../components/RightPanel";
+import "./Home.css"
 
 function Home() {
   return (

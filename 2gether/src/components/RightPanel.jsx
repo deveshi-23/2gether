@@ -1,3 +1,4 @@
+import "./RightPanel.css"
 function RightPanel() {
   return (
     <div>
