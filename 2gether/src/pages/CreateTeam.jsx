@@ -1,3 +1,4 @@
+import "./CreateTeam.css"
 function CreateTeam() {
     return <h1>Create team Page</h1>;
 }

@@ -4,13 +4,13 @@ function Sidebar() {
     <div>
       <h3>Communities</h3>
 
-      <ul>
+      {/* <ul>
         <li>Technology</li>
         <li>Gaming</li>
         <li>Music</li>
         <li>Travel</li>
         <li>Education</li>
-      </ul>
+      </ul> */}
     </div>
   );
 }

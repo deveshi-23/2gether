@@ -12,7 +12,7 @@ import "./Home.css"
 
 function Home() {
   return (
-    <>
+    <div className="home">
       <Navbar />
 
       <div className="layout">
@@ -31,7 +31,7 @@ function Home() {
         <RightPanel />
 
       </div>
-    </>
+    </div>
   );
 }
 
