@@ -78,8 +78,8 @@ html {
 }
 
 .get_started{
-    background:#7C3AED;
-    color:white;
+    background:#c1bacd;
+    color:rgb(231, 63, 63);
 }
 
 .explore{
@@ -98,4 +98,51 @@ html {
 .hero_right img{
     width:100%;
     max-width:550px;
+}
+
+/* .landing{
+    min-height:100vh;
+    background:linear-gradient(
+        135deg,
+        #F9D7F2 0%,
+        #E9D8FF 35%,
+        #CFE8FF 70%,
+        #D8F7E8 100%
+    );
+} */
+
+/* .landing{
+    min-height:100vh;
+    background:linear-gradient(
+        120deg,
+        #FFD8E8,
+        #F5D6FF,
+        #D6EEFF,
+        #D9FFE8
+    );
+} */
+.landing{
+    min-height:100vh;
+    background:
+    linear-gradient(
+        135deg,
+        #b08093 0%,
+        #926ecc 25%,
+        #98bce7 55%,
+        #7ec69f 100%
+    );
+}
+
+.navbar{
+    position:fixed;
+    top:20px;
+    left:50%;
+    transform:translateX(-50%);
+    width:90%;
+    max-width:1400px;
+    padding:18px 40px;
+    border-radius:24px;
+    background:rgba(255,255,255,0.7);
+    backdrop-filter:blur(12px);
+    z-index:1000;
 }

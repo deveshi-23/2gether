@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import "./Landing.css"
 import HeroIllustration from "../../assets/hero-illustration.svg";
+import first_illus from "../../assets/first_illus.png"
 
 function Landing() {
   return (
@@ -72,7 +73,7 @@ function Landing() {
             <div className="hero_right">
 
                 <img
-                    src={HeroIllustration}
+                    src={first_illus}
                     alt="Team Collaboration"/>
 
             </div>
